@@ -51,5 +51,6 @@ Temporary Items
 =======
 >>>>>>> origin/master
 node_modules/
+node_modules
 .vscode/
 .env
