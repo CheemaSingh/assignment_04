@@ -1,34 +1,24 @@
 # assignment_04
-Book Service Api
+
+Project 4 V.2
 
 
-The api uses mongojs,hapi,node,joi.
+Grocery Store API
 
-You can test the api with Postman.
 
-For testing you must have node and mongodb running.
+Team Members
 
-The server runs at localhost at port 3000.
+Shakti Singh Cheema (100279233)
 
-Routes available are:
+Harleen Kaur
 
-/books (GET POST)
 
-/books/{id}    (GET)
+ROUTES:
 
-/booksbytitle/{title}   (GET)
+/Items (POST GET)
 
-/booksbygenre/{genre}   (GET)
+/Items/{id}  (ie /Items/apples)  (GET PUT DELETE)
 
-/bookbyauthor/{author}  (GET)
-
-/books/{id}  (PATCH)
-
-/books/{id}  (DELETE)
-
-/users  (POST GET)
-
-/users/{id}   (GET PUT DELETE)
 
 
 
