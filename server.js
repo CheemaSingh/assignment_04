@@ -1,5 +1,7 @@
 'use strict';
 
+require('dotenv').config();
+
 const Hapi = require('hapi');
 const mongojs = require('mongojs');
 
@@ -11,11 +13,11 @@ server.connection({
 });
 
 
- server.app.db = mongojs('MyApi', ['books']);
+ server.app.db = mongojs(process.env.MYURL, ['groceries']);
 
 
 server.register([  
-  require('./routes/books'), require('./routes/users')
+  require('./routes/grocery')
 ], (err) => {
 
   if (err) {

@@ -1,1 +1,22 @@
-{"title":"Let Us Java Now","author":"Rajbir Kaur","genre":"Academic","publisher":"Mc Graw Hills Publications","publishDate":"03-08-2017","edition":"7","isbn":2345245,"copies":5,"_id":"484e8500-787d-11e7-bc11-47874823477a"}
+{
+  "name": "MyApi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "boom": "^5.2.0",
+    "dotenv": "^4.0.0",
+    "hapi": "^16.5.0",
+    "joi": "^10.6.0",
+    "mongojs": "^2.4.0",
+    "node-uuid": "^1.4.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
