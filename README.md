@@ -21,4 +21,8 @@ ROUTES:
 
 
 
+.env and node_modules are ignored by .gitignore
+
+
+
 
