@@ -23,6 +23,10 @@ ROUTES:
 
 .env and node_modules are ignored by .gitignore
 
+However .env contains connection string for atlas hosted instance of mongoDB.
+
+
+
 
 
 
